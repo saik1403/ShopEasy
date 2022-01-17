@@ -24,9 +24,15 @@ const Login = ({navigation,callLoginApi}) =>{
           password: Password
         };
       console.log(user);
-      // const isLoginSuccess = await callLoginApi(user);
-      // console.log("in Login",isLoginSuccess);
-      console.log("in Login",await callLoginApi(user));
+      const isLoginSuccess = await callLoginApi(user);
+      if(isLoginSuccess){
+        setEmail("");
+        setPassword("");
+        navigation.navigate('TabRoutes');
+      }
+      else{
+        setError("Email or password invalid");
+      }
     }
 
     return (
@@ -87,7 +93,7 @@ const Login = ({navigation,callLoginApi}) =>{
     );
   }
   const mapDispatchToProps = (dispatch) => ({
-      callLoginApi: (user) =>{ dispatch(callLoginApi(user))}
+      callLoginApi: (user) => dispatch(callLoginApi(user))
   })
 //   const mapDispatchToProps = (dispatch) => ({
 //     onLoginClick: (user) => dispatch(onLoginClick(user)),

@@ -1,0 +1,296 @@
+const Data =[
+    {
+        "id": 1,
+        "Title": "LEVERET Multipurpose Plastic Big Revolving Spice Rack 16 in 1 / Masala Rack Set/Condiment Set/Spice Container",
+        "Description": "LEVERET-Package content: Spice rack with 16/24 jars. Jars are made by high quality BPA free food grade PP plastic material and spice rack is made by high quality ABS thermoplastic which makes this spice rack unbreakable.\nLEVERET-360 Degree Rotation- This spice rack has 360-degree revolving feature which helps to find the desire spice more quickly. And this beautiful spice rack will add beauty to your kitchen area. It has compact design that takes only small place in your kitchen cabinet.",
+        "Price": 499,
+        "Currency": "Rupee",
+        "slug": "leveret-multipurpose-plastic-big-revolving-spice-rack-16-in-1-masala-rack-set-condiment-set-spice-container",
+        "Category": "Electronics",
+        "published_at": "2022-01-05T06:34:02.158Z",
+        "created_at": "2022-01-05T06:33:36.105Z",
+        "updated_at": "2022-01-05T06:34:02.183Z",
+        "Image": {
+            "id": 1,
+            "name": "https://m.media-amazon.com/images/I/71tXMrqhgqL._SL1184_.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 1100,
+            "height": 1184,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_https://m.media-amazon.com/images/I/71tXMrqhgqL._SL1184_.jpg",
+                    "hash": "thumbnail_71t_X_Mrqhgq_L_SL_1184_3dffbd08d9",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 145,
+                    "height": 156,
+                    "size": 9.63,
+                    "path": null,
+                    "url": "/uploads/thumbnail_71t_X_Mrqhgq_L_SL_1184_3dffbd08d9.jpg"
+                },
+                "large": {
+                    "name": "large_https://m.media-amazon.com/images/I/71tXMrqhgqL._SL1184_.jpg",
+                    "hash": "large_71t_X_Mrqhgq_L_SL_1184_3dffbd08d9",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 929,
+                    "height": 1000,
+                    "size": 168.17,
+                    "path": null,
+                    "url": "/uploads/large_71t_X_Mrqhgq_L_SL_1184_3dffbd08d9.jpg"
+                },
+                "medium": {
+                    "name": "medium_https://m.media-amazon.com/images/I/71tXMrqhgqL._SL1184_.jpg",
+                    "hash": "medium_71t_X_Mrqhgq_L_SL_1184_3dffbd08d9",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 697,
+                    "height": 750,
+                    "size": 112.7,
+                    "path": null,
+                    "url": "/uploads/medium_71t_X_Mrqhgq_L_SL_1184_3dffbd08d9.jpg"
+                },
+                "small": {
+                    "name": "small_https://m.media-amazon.com/images/I/71tXMrqhgqL._SL1184_.jpg",
+                    "hash": "small_71t_X_Mrqhgq_L_SL_1184_3dffbd08d9",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 465,
+                    "height": 500,
+                    "size": 62.75,
+                    "path": null,
+                    "url": "/uploads/small_71t_X_Mrqhgq_L_SL_1184_3dffbd08d9.jpg"
+                }
+            },
+            "hash": "71t_X_Mrqhgq_L_SL_1184_3dffbd08d9",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 159.76,
+            "url": "/uploads/71t_X_Mrqhgq_L_SL_1184_3dffbd08d9.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2022-01-05T06:33:12.833Z",
+            "updated_at": "2022-01-05T06:33:12.846Z"
+        }
+    },
+    {
+        "id": 2,
+        "Title": "Whirlpool 190 L 4 Star Inverter Direct-Cool Single Door Refrigerator (WDE 205 ROY 4S INV, Sapphire Magnolia, Base Stand)",
+        "Description": "Upto 9 hours of cooling retention during power cuts\nSpacious storage for 3 2L bottles on the bottle rack\nInsulated Capillary Technology\nLarge Vegetable crisper\nAuto-Connect to Home Inverter",
+        "Price": 15000,
+        "Currency": "Rupee",
+        "slug": "whirlpool-190-l-4-star-inverter-direct-cool-single-door-refrigerator-wde-205-roy-4-s-inv-sapphire-magnolia-base-stand",
+        "Category": "Electronics",
+        "published_at": "2022-01-11T09:30:16.790Z",
+        "created_at": "2022-01-11T09:30:09.243Z",
+        "updated_at": "2022-01-11T09:30:16.810Z",
+        "Image": {
+            "id": 2,
+            "name": "https://m.media-amazon.com/images/I/51pTt1Xi4dS._SL1200_.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 1200,
+            "height": 1200,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_https://m.media-amazon.com/images/I/51pTt1Xi4dS._SL1200_.jpg",
+                    "hash": "thumbnail_51p_Tt1_Xi4d_S_SL_1200_f533bf89c7",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 156,
+                    "height": 156,
+                    "size": 3,
+                    "path": null,
+                    "url": "/uploads/thumbnail_51p_Tt1_Xi4d_S_SL_1200_f533bf89c7.jpg"
+                },
+                "large": {
+                    "name": "large_https://m.media-amazon.com/images/I/51pTt1Xi4dS._SL1200_.jpg",
+                    "hash": "large_51p_Tt1_Xi4d_S_SL_1200_f533bf89c7",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 1000,
+                    "height": 1000,
+                    "size": 46.43,
+                    "path": null,
+                    "url": "/uploads/large_51p_Tt1_Xi4d_S_SL_1200_f533bf89c7.jpg"
+                },
+                "medium": {
+                    "name": "medium_https://m.media-amazon.com/images/I/51pTt1Xi4dS._SL1200_.jpg",
+                    "hash": "medium_51p_Tt1_Xi4d_S_SL_1200_f533bf89c7",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 750,
+                    "height": 750,
+                    "size": 29.74,
+                    "path": null,
+                    "url": "/uploads/medium_51p_Tt1_Xi4d_S_SL_1200_f533bf89c7.jpg"
+                },
+                "small": {
+                    "name": "small_https://m.media-amazon.com/images/I/51pTt1Xi4dS._SL1200_.jpg",
+                    "hash": "small_51p_Tt1_Xi4d_S_SL_1200_f533bf89c7",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 500,
+                    "height": 500,
+                    "size": 15.36,
+                    "path": null,
+                    "url": "/uploads/small_51p_Tt1_Xi4d_S_SL_1200_f533bf89c7.jpg"
+                }
+            },
+            "hash": "51p_Tt1_Xi4d_S_SL_1200_f533bf89c7",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 49.16,
+            "url": "/uploads/51p_Tt1_Xi4d_S_SL_1200_f533bf89c7.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2022-01-11T09:29:36.298Z",
+            "updated_at": "2022-01-11T09:29:36.312Z"
+        }
+    },
+    {
+        "id": 3,
+        "Title": " LG 8.0 Kg 5 Star Inverter Fully-Automatic Front Loading Washing Machine (FHM1208ZDL, Luxury Silver, Direct Drive Technology)",
+        "Description": "Fully-automatic front load washing machine: best wash quality, energy and water efficient\nCapacity 8.0 kg: Suitable for large families\nEnergy Rating 5 Star: best in class efficiency\nWarranty: 2 years on product, 10 years on motor (T&C)\n1200 RPM: higher spin speeds helps in faster drying\n",
+        "Price": 36000,
+        "Currency": "Rupee",
+        "slug": "lg-8-0-kg-5-star-inverter-fully-automatic-front-loading-washing-machine-fhm-1208-zdl-luxury-silver-direct-drive-technology",
+        "Category": "Electronics",
+        "published_at": "2022-01-11T09:34:10.949Z",
+        "created_at": "2022-01-11T09:32:19.922Z",
+        "updated_at": "2022-01-11T09:34:10.962Z",
+        "Image": {
+            "id": 3,
+            "name": "https://m.media-amazon.com/images/I/71DGPoGZY9L._SL1500_.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 1093,
+            "height": 1500,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_https://m.media-amazon.com/images/I/71DGPoGZY9L._SL1500_.jpg",
+                    "hash": "thumbnail_71_DG_Po_GZY_9_L_SL_1500_da94a97392",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 114,
+                    "height": 156,
+                    "size": 4.51,
+                    "path": null,
+                    "url": "/uploads/thumbnail_71_DG_Po_GZY_9_L_SL_1500_da94a97392.jpg"
+                },
+                "large": {
+                    "name": "large_https://m.media-amazon.com/images/I/71DGPoGZY9L._SL1500_.jpg",
+                    "hash": "large_71_DG_Po_GZY_9_L_SL_1500_da94a97392",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 729,
+                    "height": 1000,
+                    "size": 95.61,
+                    "path": null,
+                    "url": "/uploads/large_71_DG_Po_GZY_9_L_SL_1500_da94a97392.jpg"
+                },
+                "medium": {
+                    "name": "medium_https://m.media-amazon.com/images/I/71DGPoGZY9L._SL1500_.jpg",
+                    "hash": "medium_71_DG_Po_GZY_9_L_SL_1500_da94a97392",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 547,
+                    "height": 750,
+                    "size": 57.25,
+                    "path": null,
+                    "url": "/uploads/medium_71_DG_Po_GZY_9_L_SL_1500_da94a97392.jpg"
+                },
+                "small": {
+                    "name": "small_https://m.media-amazon.com/images/I/71DGPoGZY9L._SL1500_.jpg",
+                    "hash": "small_71_DG_Po_GZY_9_L_SL_1500_da94a97392",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 364,
+                    "height": 500,
+                    "size": 28.79,
+                    "path": null,
+                    "url": "/uploads/small_71_DG_Po_GZY_9_L_SL_1500_da94a97392.jpg"
+                }
+            },
+            "hash": "71_DG_Po_GZY_9_L_SL_1500_da94a97392",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 151.43,
+            "url": "/uploads/71_DG_Po_GZY_9_L_SL_1500_da94a97392.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2022-01-11T09:31:33.269Z",
+            "updated_at": "2022-01-11T09:31:33.277Z"
+        }
+    },
+    {
+        "id": 4,
+        "Title": "Borosil Volcano 9 Fin Oil Filled Radiator Room Heater, 2400 W, Black",
+        "Description": "QUICK HEATING OIL FILLED ROOM HEATER WITH WIDE COVERAGE - Equipped with 9 fins and 2400 W of power this oil filled room heater is just what you need for the winter season. The room heater efficiently heats up and the in-built fan helps to disseminate the heat to the room.",
+        "Price": 25000,
+        "Currency": "Rupee",
+        "slug": "borosil-volcano-9-fin-oil-filled-radiator-room-heater-2400-w-black",
+        "Category": "Electronics",
+        "published_at": "2022-01-11T09:35:38.601Z",
+        "created_at": "2022-01-11T09:35:33.889Z",
+        "updated_at": "2022-01-11T09:35:38.618Z",
+        "Image": {
+            "id": 4,
+            "name": "https://m.media-amazon.com/images/I/41W0BNxoKxL._SL1000_.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 1000,
+            "height": 1000,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_https://m.media-amazon.com/images/I/41W0BNxoKxL._SL1000_.jpg",
+                    "hash": "thumbnail_41_W0_B_Nxo_Kx_L_SL_1000_1f6bbf7284",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 156,
+                    "height": 156,
+                    "size": 2.94,
+                    "path": null,
+                    "url": "/uploads/thumbnail_41_W0_B_Nxo_Kx_L_SL_1000_1f6bbf7284.jpg"
+                },
+                "medium": {
+                    "name": "medium_https://m.media-amazon.com/images/I/41W0BNxoKxL._SL1000_.jpg",
+                    "hash": "medium_41_W0_B_Nxo_Kx_L_SL_1000_1f6bbf7284",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 750,
+                    "height": 750,
+                    "size": 30.42,
+                    "path": null,
+                    "url": "/uploads/medium_41_W0_B_Nxo_Kx_L_SL_1000_1f6bbf7284.jpg"
+                },
+                "small": {
+                    "name": "small_https://m.media-amazon.com/images/I/41W0BNxoKxL._SL1000_.jpg",
+                    "hash": "small_41_W0_B_Nxo_Kx_L_SL_1000_1f6bbf7284",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "width": 500,
+                    "height": 500,
+                    "size": 17.36,
+                    "path": null,
+                    "url": "/uploads/small_41_W0_B_Nxo_Kx_L_SL_1000_1f6bbf7284.jpg"
+                }
+            },
+            "hash": "41_W0_B_Nxo_Kx_L_SL_1000_1f6bbf7284",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 32.52,
+            "url": "/uploads/41_W0_B_Nxo_Kx_L_SL_1000_1f6bbf7284.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2022-01-11T09:34:51.870Z",
+            "updated_at": "2022-01-11T09:34:51.878Z"
+        }
+    }
+]
+export default Data;
