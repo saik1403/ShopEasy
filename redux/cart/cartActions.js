@@ -1,4 +1,4 @@
-import { ADD_TO_CART, DELETE_ITEM } from "./cartTypes";
+import { ADD_TO_CART, DECREMENT_COUNT, DELETE_ITEM, INCREMENT_COUNT } from "./cartTypes";
 const addToCart = (product) =>{
     return{
         type:ADD_TO_CART,
@@ -11,5 +11,17 @@ const deleteItem = (id)=>{
         payload:id
     }
 }
+const incrementCount = (id)=>{
+    return{
+        type:INCREMENT_COUNT,
+        payload:id
+    }
+}
+const decrementCount = (id) =>{
+    return{
+        type:DECREMENT_COUNT,
+        payload:id
+    }
+}
 
-export {addToCart,deleteItem};
+export {addToCart,deleteItem,incrementCount,decrementCount};

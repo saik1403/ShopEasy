@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import  React from "react";
+import { useEffect } from "react";
 import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, FlatList, SafeAreaView } from "react-native";
 import { connect, useDispatch } from 'react-redux';
 import { callGetOrders } from "../services/effects";
@@ -78,14 +79,16 @@ const Orders = ({ user, orders, callGetOrders, navigation }) => {
                     </View>
                 </TouchableOpacity>
             </View>
+            <ScrollView>
             <SafeAreaView>
                 <View style={styles.products}>
-                    {orders ?
+                    { orders[0] ?
                         showOrders()
-                        : null
+                        : <Text> No Data present !!! </Text>
                     }
                 </View>
             </SafeAreaView>
+            </ScrollView>
             {/* <View style={styles.button}>
                 <TouchableOpacity style={styles.addcart} onPress={() => { orderItems() }}>
                     <View style={styles.innerbutton}>
@@ -112,7 +115,6 @@ const styles = StyleSheet.create({
     products: {
         marginTop: 5,
         marginHorizontal: 3,
-        height: 535
     },
     purchase:{
         fontWeight:'600',

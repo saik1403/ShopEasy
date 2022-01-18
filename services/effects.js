@@ -18,8 +18,9 @@ export const callSignUpApi = (user) => async () => {
     let data = await createAccount(user);
     console.log(data);
     if (data.error == "Bad Request") {
-        //console.log("at status 400", data.message[0].messages[0].message);
-        return data.message[0].messages[0].message;
+        console.log("at status 400", data.message[0].messages[0].message);
+        let error=data.message[0].messages[0].message;
+        return error;
     }
     else {
         return "success";

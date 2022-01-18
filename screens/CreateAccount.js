@@ -5,7 +5,7 @@ import { addUser } from '../redux/users/usersActions';
 import * as Animatable from 'react-native-animatable';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { callSignUpApi } from '../services/effects';
-const CreateAccount = ({navigation}) => {
+const CreateAccount = ({navigation,callSignUpApi}) => {
     const [userName, setUserName] = useState('');
     const [email, setEmail] = useState('');
     const [Password, setPassword] = useState('');
@@ -43,10 +43,11 @@ const CreateAccount = ({navigation}) => {
             provider: "local",
             password: Password
         };
-        let data = await callSignUpApi(user);
+        const data = await callSignUpApi(user);
         console.log(data);
         if (data != "success") {
             setError(data);
+            return
         }
         else {
             setUserName('');

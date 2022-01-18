@@ -1,4 +1,4 @@
-import { ADD_TO_CART, DELETE_ITEM } from "./cartTypes";
+import { ADD_TO_CART, DECREMENT_COUNT, DELETE_ITEM, INCREMENT_COUNT } from "./cartTypes";
 const initialState = {
     cart: []
 }
@@ -14,6 +14,28 @@ export const cartReducer = (state = initialState, action) => {
             return {
                 ...state,
                 cart: state.cart.filter((item) => item.id !== action.payload)
+            }
+        case INCREMENT_COUNT:
+            let obj = state.cart.find((o, i) => {
+                if (o.id === action.payload) {
+                    state.cart[i].count = state.cart[i].count + 1;
+                    return true; // stop searching
+                }
+            });
+            return {
+                ...state,
+            }
+        case DECREMENT_COUNT:
+            let temp = state.cart.find((o, i) => {
+                if (o.id === action.payload) {
+                    if(state.cart[i].count>1){
+                        state.cart[i].count = state.cart[i].count - 1;
+                    }
+                    return true; // stop searching
+                }
+            });
+            return {
+                ...state,
             }
         default: return state
     }

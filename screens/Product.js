@@ -46,7 +46,7 @@ const Product = ({ navigation, route, addToCart }) => {
                             </Text>
                         </View>
                         <View style={styles.button}>
-                            <TouchableOpacity style={styles.addcart} onPress={ () =>{addToCart(item)} }>
+                            <TouchableOpacity style={styles.addcart} onPress={ () =>{ item["count"]=1; addToCart(item) } }>
                                 <View style={styles.innerbutton}>
                                     <Text style={{ color: 'white', fontSize: 25 }}> Add To Cart   </Text>
                                     <Ion name="cart-outline" size={30} style={{ color: 'white' }}></Ion>

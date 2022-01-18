@@ -1,14 +1,44 @@
 import React from "react";
-import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity } from "react-native";
+import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity,FlatList,SafeAreaView } from "react-native";
 import Header from "../components/Header";
 import Slider from "../components/Slider";
 import { createAccount } from "../services/apicalls";
 import Feather from 'react-native-vector-icons/Feather';
+import Data from './Data';
 const Home = ({ navigation }) => {
-    const images = [
-        { url: "https://www.omipharma.vn/files/banner/2020-06/omi-pharma-thau-hieu-hon-moi-ngay.jpg" },
-        { url: "https://www.omipharma.vn/files/banner/2020-06/omi-pharma-thau-hieu-nhu-cau-dan-dau-lua-chon.jpg" },
-    ];
+    const renderItem = ({ item }) => {
+        return (
+            <View style={styles.product}>
+                <TouchableOpacity onPress={()=>{navigation.navigate('Product',{product:item})}}>
+                    <View style={styles.image}>
+                        <Image
+                            style={styles.tinyLogo}
+                            source={{
+                                uri: item.Image.name,
+                            }}
+                        />
+                    </View>
+                    <View style={styles.title}>
+                        <Text style={styles.titletext}>
+                            {item.Title.length < 30
+                                ? `${item.Title}`
+                                : `${item.Title.substring(0, 12)}...`}
+                        </Text>
+                    </View>
+                    <View style={styles.priceview}>
+                        <View style={styles.price}>
+                            <Text style={styles.pricetext}> ₹ {item.Price}</Text>
+                        </View>
+                        <View style={styles.icon}>
+                            <TouchableOpacity>
+                                <Feather name="heart" size={15} style={{ color: 'pink' }}></Feather>
+                            </TouchableOpacity>
+                        </View>
+                    </View>
+                </TouchableOpacity>
+            </View>
+        )
+    }
     return (
         <View style={styles.container}>
             <Header navigation={navigation}></Header>
@@ -78,12 +108,14 @@ const Home = ({ navigation }) => {
                         </TouchableOpacity>
                     </View>
                     <View>
-                        <View style={styles.card}>
-                            <View>
-                            </View>
-                            <View>
-                            </View>
-                        </View>
+                    <SafeAreaView>
+                    <FlatList
+                            data={Data}
+                            renderItem={renderItem}
+                            keyExtractor={item => item.id}
+                            numColumns={3}
+                        />
+                    </SafeAreaView>
                     </View>
                 </View>
             </ScrollView>
@@ -131,12 +163,62 @@ const styles = StyleSheet.create({
     },
     bestSale: {
         marginTop: 8,
-        height: 200,
         width: '100%',
         backgroundColor: '#fff',
     },
     card:{
 
+    },
+    products: {
+        marginTop: 10,
+        marginHorizontal: 3,
+        alignItems: 'center'
+    },
+    tinyLogo: {
+        marginTop: 10,
+        height: 80,
+        width: 80,
+        borderRadius: 10,
+        borderWidth: 0.1,
+    },
+    product: {
+        height: 140,
+        width: 120,
+        borderWidth: 0.5,
+        borderColor: 'grey',
+        borderRadius: 5,
+        margin: 5,
+        backgroundColor: '#fff',
+    },
+    extend:{
+        height:100
+    },
+    image: {
+        alignItems: 'center',
+    },
+    title: {
+        marginTop: 5,
+        alignItems: "center"
+    },
+    titletext: {
+        fontWeight: '600',
+        color: 'black'
+    },
+    priceview: {
+        marginTop: 8,
+        flexDirection: 'row',
+        justifyContent: 'space-around'
+    },
+    pricetext: {
+        fontWeight: '600',
+        color: 'black',
+        fontSize: 13
+    },
+    icon: {
+        justifyContent: 'center'
+    },
+    price: {
+        justifyContent: 'center'
     }
 });
 export default Home;
