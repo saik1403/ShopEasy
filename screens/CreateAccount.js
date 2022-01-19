@@ -76,7 +76,7 @@ const CreateAccount = ({navigation,callSignUpApi}) => {
             <Animatable.View style={styles.signups} animation="slideInUp" duration={800}>
                 <Text style={styles.lables}>User Name</Text>
                 <View style={styles.icons}>
-                    <Icon name="user" size={45} style={{ marginLeft: 15 }}></Icon>
+                    <Icon name="user" size={45} style={{ marginLeft: 15,marginRight:11 }}></Icon>
                     <TextInput
                         style={styles.inputbox}
                         onChangeText={setUserName}
@@ -86,7 +86,7 @@ const CreateAccount = ({navigation,callSignUpApi}) => {
                 </View>
                 <Text style={styles.lables}>Email</Text>
                 <View style={styles.icons}>
-                    <Icon name="at" size={45} style={{ marginLeft: 15 }}></Icon>
+                    <Icon name="at" size={45} style={{ marginLeft: 15,marginRight:6}}></Icon>
                     <TextInput
                         style={styles.inputbox}
                         onChangeText={setEmail}
@@ -96,7 +96,7 @@ const CreateAccount = ({navigation,callSignUpApi}) => {
                 </View>
                 <Text style={styles.lables}>Password</Text>
                 <View style={styles.icons}>
-                    <Icon name="key" size={45} style={{ marginLeft: 10 }}></Icon>
+                    <Icon name="key" size={45} style={{ marginLeft: 15, }}></Icon>
                     <TextInput
                         style={styles.inputbox}
                         secureTextEntry={true}

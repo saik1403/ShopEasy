@@ -55,7 +55,7 @@ const Login = ({navigation,callLoginApi}) =>{
           <Text style={styles.logintextdown}>Login</Text>
           <Text style={styles.lables}>User Name</Text>
           <View style={styles.icons}>
-          <Fa name="at" size={45} style={{marginLeft:15}}></Fa>
+          <Fa name="at" size={45} style={{marginLeft:15,marginRight:6}}></Fa>
           <TextInput
             style={styles.inputbox}
             onChangeText={setEmail}
@@ -65,7 +65,7 @@ const Login = ({navigation,callLoginApi}) =>{
           </View>
           <Text style={styles.lables}>Password</Text>
           <View style={styles.icons}>
-          <Fa name="key" size={45} style={{marginLeft:10}}></Fa>
+          <Fa name="key" size={45} style={{marginLeft:15}}></Fa>
           <TextInput
             style={styles.inputbox}
             secureTextEntry={true}
@@ -81,7 +81,7 @@ const Login = ({navigation,callLoginApi}) =>{
               checkCredentials();
             }}
           >
-            <Text style={{ color: 'white', fontWeight: 'bold' }}>Login</Text>
+            <Text style={{ color: 'white', fontWeight: 'bold',fontSize:18}}>Login</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.signup} onPress={() => { navigation.navigate('CreateAccount') }}>
             <Text style={{ fontSize: 15 }}> Didn't have an Account   </Text>
